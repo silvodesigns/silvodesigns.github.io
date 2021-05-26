@@ -1,16 +1,15 @@
-import './App.css';
-import logo2 from './logo2.svg';
+import '../styles/header.css';
+import logo from '../logo22.svg';
 
-function App() {
+function Header() {
     return (
-        <div className="App">
+        <div className="header">
             <header className="App-header">
-                <img src={logo2} className="App-logo" alt="logo" />
-                <h1>Kevin Silvestre</h1>
-                <h2>Web Developer/Designer</h2>
+                <img src={logo} className="logo" alt="logo" />
+                <p className="menu-btm">menu</p>
             </header>
-        </div>
+        </div >
     );
 }
 
-export default App;
+export default Header;
