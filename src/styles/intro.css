@@ -1,0 +1,20 @@
+.intro{
+    background-color: #fdef61ff;
+    height:800px;
+    padding-left:250px;
+    padding-top:100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    padding-left:50px;
+}
+
+
+.description p{
+    font-size:32px;
+    line-height: 1.5em;
+    width:800px;
+    color: #549bf5ff;
+}
