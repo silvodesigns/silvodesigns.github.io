@@ -1,0 +1,26 @@
+.footer-container{
+    height:200px;
+ 
+}
+
+.contact-info{
+    padding-left:250px;
+    padding-right:250px;
+    display: flex;
+}
+.address{
+    flex: 1;
+    font-weight: bold;
+}
+.connect{
+    text-align:right;
+    flex:1;
+    font-weight: bold;
+}
+
+.coppyrights{
+    margin-left:250px;
+    color: #E5E5E5;
+
+
+}
