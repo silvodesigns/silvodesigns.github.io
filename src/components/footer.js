@@ -9,8 +9,8 @@ function Footer() {
                 </div>
 
                 <div className="connect">
-                    <p>LinkedIn</p>
-                    <p>Twitter</p>
+                    <p><a href="https://www.linkedin.com/in/kevinsilvestre/">LinkedIn</a></p>
+                    <p><a href="https://github.com/silvodesigns">GitHub</a></p>
                 </div>
             </footer>
             <div className="coppyrights">
