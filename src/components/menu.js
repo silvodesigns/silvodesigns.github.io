@@ -3,13 +3,6 @@ import '../styles/menu.css';
 
 function Menu() {
 
-    const toggleMenu = event => {
-        const target = document.getElementById("nav-menu");
-        target.classList.toggle("open");
-    };
-
-
-
     return (
         <div className="nav-menu" id="nav-menu">
             <ul>
