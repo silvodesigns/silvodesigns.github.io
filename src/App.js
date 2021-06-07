@@ -1,17 +1,55 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route } from 'react-router-dom';
+
+import Header from './components/Header.js';
+import Intro from './components/Intro.js';
+import Menu from './components/Menu.js';
+import Footer from './components/Footer.js';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Kevin Silvestre
-         
-        </p>
-        <h1>WEB DEVELOPER</h1>
-      </header>
+      <Route exact path='/' render={props => {
+        return <div>
+          <Header></Header>
+          <Menu></Menu>
+          <Intro></Intro>
+          <Footer></Footer>
+        </div>
+
+      }} />
+
+      <Route path='/work' render={props => {
+        return <div>
+          <Header></Header>
+          <Menu></Menu>
+          <Footer></Footer>
+        </div>
+
+      }} />
+
+      <Route path='/resume' render={props => {
+        return <div>
+          <Header></Header>
+          <Menu></Menu>
+          <Footer></Footer>
+        </div>
+
+      }} />
+
+
+      <Route path='/contact' render={props => {
+        return <div>
+          <Header></Header>
+          <Menu></Menu>
+          <Footer></Footer>
+        </div>
+
+      }} />
+
+
     </div>
   );
 }

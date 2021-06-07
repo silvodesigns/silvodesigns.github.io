@@ -1,0 +1,27 @@
+
+.App-header{
+    width:100%;
+    height:250px;
+    padding-left:100px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+.logo{
+    width:150px;
+    height:150px;
+
+}
+
+.menu-btm{
+    font-family: 'Squada One', cursive;
+    font-size: 2em;
+}
+
+.menu-btm:hover{
+    cursor: pointer;
+
+}
+
+

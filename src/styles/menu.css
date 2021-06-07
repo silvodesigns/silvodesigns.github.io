@@ -1,0 +1,57 @@
+.nav-menu{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+    color: #000;
+    z-index: 100;
+    background-color: #fff;
+    height: auto;
+    padding-bottom:40px;
+    padding-top:80px;
+
+  
+    
+  }
+
+  .nav-menu ul {
+      list-style: none;
+      width:80%;
+      margin: auto;
+
+  }
+
+
+  .nav-menu a{
+      text-decoration: none;
+      color: inherit;
+  }
+
+
+  .nav-menu li{
+      font-size: 2.5em;
+      font-weight: 700;
+      font-family: Futura,Helvetica ,Sans-serif;
+      padding-top:20px;
+      padding-bottom:20px;
+      border-bottom: 1px solid #E5E5E5;;
+  }
+
+  .nav-menu li:hover{
+      opacity:0.5;
+      cursor: pointer;
+  }
+
+.open {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    margin-top:250px;
+  }
+
+
+
