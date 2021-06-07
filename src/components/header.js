@@ -8,7 +8,6 @@ function Header() {
         target.classList.toggle("open");
     };
 
-
     return (
         <div className="header">
             <header className="App-header">

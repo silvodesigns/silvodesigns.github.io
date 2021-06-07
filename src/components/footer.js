@@ -15,7 +15,6 @@ function Footer() {
             </footer>
             <div className="coppyrights">
                 <p>@2021 Kevin Silvestre. All Rights reserved. Legal info</p>
-
             </div>
 
         </div >

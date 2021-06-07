@@ -20,9 +20,6 @@ function Menu() {
                 <li onClick={toggleMenu}> <Link to='resume'>Resume</Link></li>
                 <li onClick={toggleMenu}> <Link to='contact'>Contact</Link></li>
 
-
-
-
             </ul>
         </div>
 
