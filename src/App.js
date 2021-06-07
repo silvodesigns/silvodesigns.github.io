@@ -1,8 +1,9 @@
 import './App.css';
-import Header from './components/header.js';
-import Menu from './components/menu.js';
+import Header from './components/Header.js';
 import Intro from './components/Intro.js';
-import Footer from './components/footer.js';
+import Menu from './components/Menu.js';
+import Footer from './components/Footer.js';
+
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Menu></Menu>
       <Intro></Intro>
       <Footer></Footer>
+
     </div>
   );
 }
