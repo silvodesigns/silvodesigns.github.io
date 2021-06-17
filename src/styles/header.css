@@ -3,25 +3,50 @@
     width:100%;
     height:250px;
     padding-left:100px;
-    display:flex;
-    flex-direction:row;
-    align-items: center;
+    display: flex;
+    padding-top:20px;
 
+}
+.logo-container{
+    width:40%;
+}
+
+nav {
+    width:60%;
+    padding-top:20px;
 }
 .logo{
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
 
 }
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
 
-.menu-btm{
+nav ul li {
     font-family: 'Squada One', cursive;
-    font-size: 2em;
+    font-size: 1.2em;
+    margin-left:1.5em;
+
 }
 
-.menu-btm:hover{
-    cursor: pointer;
+#menu-item:hover >  .blue-icon {
+    visibility: visible;
+}
 
+.blue-icon{
+    width: 10px;
+    height: 18px;
+    left: 321px;
+    top: 100px;
+    display:inline-block;
+    margin-right:5px;
+    background: #61C9C9;
+    border-radius: 40px;
+    visibility: hidden;
 }
 
 
