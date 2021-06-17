@@ -1,20 +1,30 @@
 .intro{
-    background-color: #fdef61ff;
+    background-color: rgb(255, 255, 255);
     height:800px;
-    padding-left:250px;
     padding-top:100px;
-    display: flex;
-    flex-direction: row;
 }
 
-.description{
-    padding-left:50px;
+.introduction{
+    position: absolute;
+    width: 30vw;
+    height: 1000px;
+    left: -7%;
+    top: 153px;
+    padding-left:17%;
+
+    background: #FDEF61;
+    border-radius: 71px;
 }
 
+.introduction h1{
+    font-size:8em;
+    font-weight:700px;
+    margin-left:10%;
+}
 
-.description p{
-    font-size:32px;
+.introduction p {
+    font-size: 2em;
     line-height: 1.5em;
-    width:800px;
-    color: #549bf5ff;
+    font-weight: lighter;
 }
+

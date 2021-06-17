@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 
 import Header from './components/Header.js';
 import Intro from './components/Intro.js';
+import Intro2 from './components/intro2.js'
 import Menu from './components/Menu.js';
 import Footer from './components/Footer.js';
 
@@ -16,6 +17,7 @@ function App() {
           <Header></Header>
           <Menu></Menu>
           <Intro></Intro>
+          <Intro2></Intro2>
           <Footer></Footer>
         </div>
 
