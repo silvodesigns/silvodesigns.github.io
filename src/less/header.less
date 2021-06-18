@@ -1,0 +1,76 @@
+
+.App-header{
+    width:100%;
+    height:250px;
+    padding-left:100px;
+    display: flex;
+    padding-top:20px;
+
+}
+.logo-container{
+    width:40%;
+
+    .logo{
+        width:100px;
+        height:100px;
+    
+    }
+
+    @media (max-width: 1080px) {
+       display:flex;
+       align-items: top;
+    }
+
+}
+
+nav {
+    width:60%;
+    padding-top:20px;
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        li {
+            font-family: 'Squada One', cursive;
+            font-size: 1.2em;
+            margin-left:1.5em;
+
+        }
+
+    }
+
+    @media (max-width: 1080px) {
+        display: none;
+    }
+}
+
+.menu-btm{
+    display:none;
+    font-family: "Squada One",cursive;
+    font-size: 1em;
+
+    @media (max-width: 1080px) {
+        display: inline-block;
+    }
+
+}:hover{
+    cursor: pointer;
+}
+
+#menu-item:hover >  .blue-icon {
+    visibility: visible;
+}
+
+.blue-icon{
+    width: 10px;
+    height: 18px;
+    left: 321px;
+    top: 100px;
+    display:inline-block;
+    margin-right:5px;
+    background: #61C9C9;
+    border-radius: 40px;
+    visibility: hidden;
+}
+
+

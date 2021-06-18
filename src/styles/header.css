@@ -1,52 +1,66 @@
-
-.App-header{
-    width:100%;
-    height:250px;
-    padding-left:100px;
+.App-header {
+  width: 100%;
+  height: 250px;
+  padding-left: 100px;
+  display: flex;
+  padding-top: 20px;
+}
+.logo-container {
+  width: 40%;
+}
+.logo-container .logo {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 1080px) {
+  .logo-container {
     display: flex;
-    padding-top:20px;
-
+    align-items: top;
+  }
 }
-.logo-container{
-    width:40%;
-}
-
 nav {
-    width:60%;
-    padding-top:20px;
-}
-.logo{
-    width:100px;
-    height:100px;
-
+  width: 60%;
+  padding-top: 20px;
 }
 nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
-
 nav ul li {
-    font-family: 'Squada One', cursive;
-    font-size: 1.2em;
-    margin-left:1.5em;
-
+  font-family: 'Squada One', cursive;
+  font-size: 1.2em;
+  margin-left: 1.5em;
 }
-
-#menu-item:hover >  .blue-icon {
-    visibility: visible;
+@media (max-width: 1080px) {
+  nav {
+    display: none;
+  }
 }
-
-.blue-icon{
-    width: 10px;
-    height: 18px;
-    left: 321px;
-    top: 100px;
-    display:inline-block;
-    margin-right:5px;
-    background: #61C9C9;
-    border-radius: 40px;
-    visibility: hidden;
+.menu-btm {
+  display: none;
+  font-family: "Squada One", cursive;
+  font-size: 1em;
 }
-
-
+@media (max-width: 1080px) {
+  .menu-btm {
+    display: inline-block;
+  }
+}
+:hover {
+  cursor: pointer;
+}
+#menu-item:hover > .blue-icon {
+  visibility: visible;
+}
+.blue-icon {
+  width: 10px;
+  height: 18px;
+  left: 321px;
+  top: 100px;
+  display: inline-block;
+  margin-right: 5px;
+  background: #61C9C9;
+  border-radius: 40px;
+  visibility: hidden;
+}

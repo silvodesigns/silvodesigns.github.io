@@ -1,30 +1,25 @@
-.intro{
-    background-color: rgb(255, 255, 255);
-    height:800px;
-    padding-top:100px;
+.intro {
+  background-color: #ffffff;
+  height: 800px;
+  padding-top: 100px;
 }
-
-.introduction{
-    position: absolute;
-    width: 30vw;
-    height: 1000px;
-    left: -7%;
-    top: 153px;
-    padding-left:17%;
-
-    background: #FDEF61;
-    border-radius: 71px;
+.introduction {
+  position: absolute;
+  width: 30vw;
+  height: 1000px;
+  left: -7%;
+  top: 153px;
+  padding-left: 17%;
+  background: #FDEF61;
+  border-radius: 71px;
 }
-
-.introduction h1{
-    font-size:8em;
-    font-weight:700px;
-    margin-left:10%;
+.introduction h1 {
+  font-size: 8em;
+  font-weight: 700px;
+  margin-left: 10%;
 }
-
 .introduction p {
-    font-size: 2em;
-    line-height: 1.5em;
-    font-weight: lighter;
+  font-size: 2em;
+  line-height: 1.5em;
+  font-weight: lighter;
 }
-
