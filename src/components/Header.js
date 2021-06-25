@@ -1,5 +1,6 @@
 import '../styles/header.css';
 import logo from '../logo22.svg';
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -18,11 +19,11 @@ function Header() {
                 </div>
                 <nav>
                     <ul>
-                        <li id="menu-item"><div className="blue-icon"></div>home</li>
-                        <li id="menu-item"><div className="blue-icon"></div>work</li>
-                        <li id="menu-item"><div className="blue-icon"></div>experiences</li>
-                        <li id="menu-item"><div className="blue-icon"></div>about</li>
-                        <li id="menu-item"><div className="blue-icon"></div>resume</li>
+                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>home</Link></li>
+                        <li id="menu-item"><div className="blue-icon"></div> <Link to='work'>work</Link></li>
+                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>experiences</Link></li>
+                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>about</Link></li>
+                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>resume</Link></li>
                     </ul>
                 </nav>
 
@@ -31,5 +32,10 @@ function Header() {
         </div >
     );
 }
+
+
+
+
+
 
 export default Header;
