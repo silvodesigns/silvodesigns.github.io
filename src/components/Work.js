@@ -1,5 +1,4 @@
 import '../styles/work.css';
-import cover from '../images/cat.jpg';
 
 
 function Work() {
