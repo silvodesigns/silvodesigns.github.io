@@ -1,0 +1,76 @@
+.work-container {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 3fr) 1fr;
+  grid-template-rows: repeat(4, 3fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 60px;
+  margin-bottom: 300px;
+}
+@media (max-width: 1080px) {
+  .work-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(4, 3fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 60px;
+  }
+}
+.work-container .project-description {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.work-container .project-description h1,
+.work-container .project-description h2 {
+  font-family: 'Squada One', cursive;
+}
+.work-container .project-description .date {
+  font-weight: lighter;
+}
+.work-container .project-description ul li {
+  height: 30px;
+  font-size: 0.8em;
+}
+.work-container .project-description a {
+  color: black;
+}
+@media (max-width: 800px) {
+  .work-container .project-description h1,
+  .work-container .project-description h2 {
+    font-family: 'Squada One', cursive;
+  }
+  .work-container .project-description .date {
+    font-weight: lighter;
+  }
+  .work-container .project-description ul li {
+    height: 50px;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+}
+.work-container .div1 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.work-container .div2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.work-container .div3 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.work-container .div4 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+@media (max-width: 1080px) {
+  .work-container .div1 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .work-container .div2 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .work-container .div3 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+  .work-container .div4 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+}

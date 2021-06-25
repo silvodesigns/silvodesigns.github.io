@@ -5,6 +5,7 @@ import Header from './components/Header.js';
 import Intro from './components/Intro.js';
 import Intro2 from './components/intro2.js'
 import Menu from './components/Menu.js';
+import Work from './components/Work.js';
 import Footer from './components/Footer.js';
 
 
@@ -27,6 +28,7 @@ function App() {
         return <div>
           <Header></Header>
           <Menu></Menu>
+          <Work></Work>
           <Footer></Footer>
         </div>
 
