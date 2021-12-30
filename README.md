@@ -1,4 +1,4 @@
-# Kevin Silvestre's portfilio
+# Kevin Silvestre's portfolio
 
 My Personal site here: [Portfolio Live](https://kevinsilvestre.me/).
 
