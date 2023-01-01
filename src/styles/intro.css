@@ -1,33 +1,36 @@
-.intro {
-  background-color: #ffffff;
+body {
+  background-color: #99CCCC;
 }
-.introduction {
+.YouTube-Btn {
+  width: 400px;
+}
+.avatar-img {
+  max-width: 300px;
+}
+.yellow_banner {
   background: #feee61;
-  padding-left: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 50px;
 }
 @media screen and (max-width: 800px) {
-  .introduction {
+  .yellow_banner {
     padding-left: 20px;
   }
 }
-.introduction h1 {
-  font-size: 8em;
+.yellow_banner h1 {
+  font-size: 7em;
   font-weight: 700px;
   padding: 0px;
   margin: 0px;
 }
 @media screen and (max-width: 800px) {
-  .introduction h1 {
+  .yellow_banner h1 {
     font-size: 5em;
   }
 }
-.introduction p {
-  font-size: 2em;
+.yellow_banner p {
+  font-size: 1.4em;
   line-height: 1.5em;
   font-weight: lighter;
   padding: 0px;
   margin: 0;
 }
-/*# sourceMappingURL=intro.css.map */
