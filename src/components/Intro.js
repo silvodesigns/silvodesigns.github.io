@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import Avatar from "../avatar.jpeg";
+import "animate.css";
 
 function Intro() {
   return (
@@ -15,6 +16,7 @@ function Intro() {
           <h3> Voz profetica a las naciones</h3>
           <p>kevinjsilvestre@icloud.com </p>
           <Button
+            className="animate__animated animate__pulse animate__infinite"
             style={{
               paddingTop: "20px",
               paddingBottom: "20px",
@@ -37,7 +39,11 @@ function Intro() {
           </Button>{" "}
         </Col>
         <Col xs={12} md={6}>
-          <img src={Avatar} className="img-fluid" alt="instagram" />
+          <img
+            src={Avatar}
+            className="img-fluid animate__animated animate__fadeIn animate__slower"
+            alt="instagram"
+          />
         </Col>
       </Row>
     </Container>
