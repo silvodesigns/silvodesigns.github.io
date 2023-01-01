@@ -1,41 +1,32 @@
-import '../styles/header.css';
-import logo from '../logo22.svg';
-import { Link } from 'react-router-dom';
+import "../styles/header.css";
+import logo from "../logo.png";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Header() {
-
-    const toggleMenu = event => {
-        const target = document.getElementById("nav-menu");
-        target.classList.toggle("open");
-
-    };
-
-    return (
-        <div className="header">
-            <header className="App-header">
-                <div className="logo-container">
-                    <img src={logo} className="logo" alt="logo" />
-                    <p onClick={toggleMenu} class="menu-btm">menu</p>
-                </div>
-                <nav>
-                    <ul>
-                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>home</Link></li>
-                        <li id="menu-item"><div className="blue-icon"></div> <Link to='work'>work</Link></li>
-                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>experiences</Link></li>
-                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>about</Link></li>
-                        <li id="menu-item"><div className="blue-icon"></div> <Link to='/'>resume</Link></li>
-                    </ul>
-                </nav>
-
-
-            </header>
-        </div >
-    );
+  return (
+    <Container>
+      <Row className="align-items-center">
+        <Col>
+          <div className="logo-container">
+            <img src={logo} className="logo" alt="logo" />
+          </div>
+        </Col>
+        <Col className="text-center">
+          <Button
+            href="https://www.paypal.com/paypalme/kevinjosesilvestre"
+            size="lg"
+            variant="warning"
+            className="align-self-center"
+          >
+            PayPal
+          </Button>{" "}
+        </Col>
+      </Row>
+    </Container>
+  );
 }
-
-
-
-
-
 
 export default Header;
